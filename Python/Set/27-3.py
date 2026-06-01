@@ -8,7 +8,7 @@ Output: Yes
 Input: str = "Campusx"
 Output: No
 """
-str="01010101010"
+str="Campusx"
 #input("Enter a string:-")
 uniue_str=set(str)
 x=len(uniue_str)
