@@ -1,3 +1,4 @@
+"""
 2.0.3 Q5: Intersection of two lists. Intersection of two list means we need to take all
 those elements which are common to both of the initial lists and store them
 into another list. Only use using list-comprehension.
@@ -14,8 +15,9 @@ lst2 = {9, 9, 74, 21, 45, 11, 63, 28, 26}
 Output:
 [9, 11, 26, 28]
 [ ]: # write your code 
+"""
 
 lst1 = [15, 9, 10, 56, 23, 78, 5, 4, 9]
 lst2 = [9, 4, 5, 36, 47, 26, 10, 45, 87]
 
-[ list1]
+print([set(list1)&set(list2)])
