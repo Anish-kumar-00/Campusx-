@@ -8,11 +8,12 @@ Output: Yes
 Input: str = "Campusx"
 Output: No
 
-str=input("Enter a string:-")
+str= "01010101010"
+#input("Enter a string:-")
 uniue_str=set(str)
 x=len(str)
 print(x)
 if x==2:
     print("Yes Binary string")
 else:
-    print("N")
+    print("No ")
