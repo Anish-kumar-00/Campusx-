@@ -10,4 +10,5 @@ Output: No
 
 str=input("Enter a string:-")
 uniue_str=set(str)
-print(len)
+x=len(str)
+print(x)
