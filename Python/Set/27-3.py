@@ -12,3 +12,7 @@ str=input("Enter a string:-")
 uniue_str=set(str)
 x=len(str)
 print(x)
+if x==2:
+    print("Yes Binary string")
+else:
+    print("N")
