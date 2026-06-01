@@ -8,4 +8,6 @@ Output: Yes
 Input: str = "Campusx"
 Output: No
 
-str=input("Enter a string")
+str=input("Enter a string:-")
+uniue_str=set(str)
+print(len)
