@@ -21,5 +21,5 @@ test_dict = {"CampusX" : [5, 7, 9, 4, 0], "is" :
 "Best" : [9, 9, 6, 5, 5]}
 l3=[]
 for i in test_dict:
-    l3.append([len(set(test_dict[i])),i]
+    l3.append([len(set(test_dict[i])),i])
 print(l3)    
