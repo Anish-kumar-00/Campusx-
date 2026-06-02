@@ -20,4 +20,4 @@ test_dict = {"CampusX" : [5, 7, 9, 4, 0], "is" :
     [6, 7, 4, 3, 3],
 "Best" : [9, 9, 6, 5, 5]}
 for i in test_dict:
-    
+     len(set(test_dict[i]))
