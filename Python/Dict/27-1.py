@@ -22,4 +22,4 @@ test_dict = {"CampusX" : [5, 7, 9, 4, 0], "is" :
 l3=[]
 for i in test_dict:
     l3.append([len(set(test_dict[i])),i])
-print(l3)    
+print(sorted(l3))    
